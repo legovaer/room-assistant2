@@ -2,7 +2,7 @@ FROM node:16-alpine3.12 as build
 ARG ROOM_ASSISTANT_VERSION=latest
 
 RUN apk add --no-cache python3 make g++ libusb-dev eudev-dev avahi-dev cairo-dev jpeg-dev pango-dev giflib-dev
-RUN npm install -g --unsafe-perm room-assistant@$ROOM_ASSISTANT_VERSION
+RUN npm install -g --unsafe-perm room-assistant2@$ROOM_ASSISTANT_VERSION
 
 FROM node:16-alpine3.12
 
@@ -12,9 +12,9 @@ RUN apk add --no-cache bluez bluez-deprecated libusb avahi-dev bind-tools dmidec
     && setcap cap_net_raw+eip $(eval readlink -f `which node`) \
     && setcap cap_net_raw+eip $(eval readlink -f `which hcitool`) \
     && setcap cap_net_admin+eip $(eval readlink -f `which hciconfig`) \
-    && ln -s /usr/local/lib/node_modules/room-assistant/bin/room-assistant.js /usr/local/bin/room-assistant
+    && ln -s /usr/local/lib/node_modules/room-assistant2/bin/room-assistant.js /usr/local/bin/room-assistant
 RUN npm install -g winston-loki winston-elasticsearch
-COPY --from=build /usr/local/lib/node_modules/room-assistant /usr/local/lib/node_modules/room-assistant
+COPY --from=build /usr/local/lib/node_modules/room-assistant2 /usr/local/lib/node_modules/room-assistant2
 
 ENTRYPOINT ["tini", "--", "room-assistant"]
 CMD ["--digResolver"]
