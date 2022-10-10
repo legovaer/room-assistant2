@@ -2,11 +2,11 @@
 <h3 align="center">Automation on the Room-Level</h3>
 
 <p align="center">
-<a href="https://www.npmjs.com/package/room-assistant">
+<a href="https://www.npmjs.com/package/room-assistant2">
     <img alt="npm" src="https://img.shields.io/npm/v/room-assistant">
 </a>
-<a href="https://codecov.io/gh/mKeRix/room-assistant">
-  <img alt="code coverage" src="https://codecov.io/gh/mKeRix/room-assistant/branch/master/graph/badge.svg" />
+<a href="https://codecov.io/gh/legovaer/room-assistant2">
+  <img alt="code coverage" src="https://codecov.io/gh/legovaer/room-assistant2/branch/master/graph/badge.svg" />
 </a>
 <a href="https://github.com/semantic-release/semantic-release">
   <img alt="semantic-release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg">
