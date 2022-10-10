@@ -1,6 +1,6 @@
 {
   "name": "room-assistant2",
-  "version": "2.20.0",
+  "version": "1.0.0",
   "description": "Presence tracking and more for automation on the room-level",
   "author": "Levi Govaerts <legovaer@me.com>",
   "license": "MIT",
