@@ -1,10 +1,10 @@
 {
-  "name": "room-assistant",
+  "name": "room-assistant2",
   "version": "2.20.0",
   "description": "Presence tracking and more for automation on the room-level",
-  "author": "Heiko Rothe <me@heikorothe.com> (https://heikorothe.com)",
+  "author": "Levi Govaerts <legovaer@me.com>",
   "license": "MIT",
-  "repository": "github:mKeRix/room-assistant",
+  "repository": "github:legovaer/room-assistant2",
   "keywords": [
     "smart home",
     "home automation",
@@ -14,8 +14,8 @@
     "thermopile"
   ],
   "homepage": "https://www.room-assistant.io",
-  "bugs": "https://github.com/mKeRix/room-assistant/issues",
-  "funding": "https://github.com/mKeRix/room-assistant?sponsor=1",
+  "bugs": "https://github.com/legovaer/room-assistant2/issues",
+  "funding": "https://github.com/legovaer/room-assistant2?sponsor=1",
   "bin": "./bin/room-assistant.js",
   "main": "dist/src/main.js",
   "types": "dist/src/main.d.ts",
