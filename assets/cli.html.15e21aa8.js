@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-387c00a5","path":"/guide/cli.html","title":"CLI","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1666141761000,"contributors":[{"name":"dependabot[bot]","email":"49699333+dependabot[bot]@users.noreply.github.com","commits":1}]},"filePathRelative":"guide/cli.md"}');export{e as data};
