@@ -59,7 +59,7 @@
     "async-mutex": "^0.4.0",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.13.1",
-    "command-line-args": "^5.1.1",
+    "command-line-args": "^6.0.1",
     "command-line-usage": "^6.1.1",
     "config": "^3.3.6",
     "democracy": "^3.1.3",
